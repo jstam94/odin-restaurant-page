@@ -1,0 +1,15 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Page for the Odin Project. The focus here is to learn to learn to use things like NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
