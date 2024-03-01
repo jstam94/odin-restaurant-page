@@ -2,7 +2,7 @@ import Coffee from './coffee.jpg';
 
 export default function renderHome(){
     const container = document.createElement('div.container');
-    const header = document.createElement('h1');
+    const header = document.createElement('h2');
     header.textContent = 'Generic Cafe';
     container.appendChild(header);
     
