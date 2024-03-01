@@ -1,5 +1,6 @@
 export default function menu(){
-    let container = document.createElement('div.menu');
+    let container = document.createElement('div');
+    container.className = `menu`;
     
     const header = document.createElement('h2');
     header.textContent = `Menu`
@@ -7,23 +8,25 @@ export default function menu(){
 
     container.appendChild(header)
 
-    let menu = document.createElement('div')
+    let menu = document.createElement('ul')
    
     addItem('test', 4, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 12, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 1.5, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 3, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 12, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 5, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 4, `Lorem ipsum dolor sit amet, consectetur adi`)
-
     addItem('test', 1, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 4, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 12, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 1.5, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 3, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 12, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 5, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 4, `Lorem ipsum dolor sit amet, consectetur adi`)
+    addItem('test', 1, `Lorem ipsum dolor sit amet, consectetur adi`)
+
 
 
     container.appendChild(menu);
@@ -40,6 +43,7 @@ function menuItem (name, price, info){
     let item = document.createElement('li');
 
     let itemHeader = document.createElement('div');
+    itemHeader.className = 'itemHeader';
 
     let itemName = document.createElement('h4');
     itemName.textContent = name;
@@ -57,6 +61,6 @@ function menuItem (name, price, info){
     item.appendChild(itemInfo)
 
     return item;
-    
 }
+
 

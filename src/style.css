@@ -18,3 +18,46 @@ h1{
     margin: auto;
     width: fit-content;
 }
+
+li{
+    list-style-type: none;
+}
+
+
+body{
+    background: #E2BFB3;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.itemHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+ width: fit-content;
+}
+
+h4{
+    margin: 0;
+}
+
+.menu{
+    width: fit-content;
+    margin: auto
+}
+
+.menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
