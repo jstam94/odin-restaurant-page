@@ -1,6 +1,7 @@
 nav{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 h1{
@@ -25,7 +26,8 @@ li{
 
 
 body{
-    background: #E2BFB3;
+    background: #E0CCBE;
+    font-family: roboto;
 }
 
 h2{
@@ -53,11 +55,70 @@ h4{
 
 .menu{
     width: fit-content;
-    margin: auto
+    margin: auto;
+    background: #e9794d54;
+    padding: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .menu ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    padding: 40px;
+}
+
+
+
+
+/* CSS */
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.selected{
+    background-color: #fff;
+}
+
+a{
+    color: #9B4444;
+}
+
+li p{
+    font-style: italic;
+}
+
+span{
+    font-weight: 100;
 }
